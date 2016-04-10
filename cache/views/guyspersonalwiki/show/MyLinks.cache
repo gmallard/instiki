@@ -1,0 +1,632 @@
+I"�G<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>
+      My Links in Guy&#39;s Personal Wiki
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  
+ 
+  <link href="/stylesheets/instiki.css?1458940298" media="all" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/syntax.css?1458940298" media="all" rel="stylesheet" type="text/css" />
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #008B26; 
+    }
+    a:visited.existingWikiWord {
+      color: #005c19;
+    }
+    
+    
+  </style>
+  
+  <style type="text/css"><!--/*--><![CDATA[/*><!--*/    
+    
+  /*]]>*/--></style>
+  <script src="/javascripts/prototype.js?1458940298" type="text/javascript"></script>
+<script src="/javascripts/effects.js?1458940298" type="text/javascript"></script>
+<script src="/javascripts/dragdrop.js?1458940298" type="text/javascript"></script>
+<script src="/javascripts/controls.js?1458940298" type="text/javascript"></script>
+<script src="/javascripts/application.js?1458940298" type="text/javascript"></script>
+  <script src="/javascripts/page_helper.js?1458940298" type="text/javascript"></script>
+  
+  <script type="text/x-mathjax-config">
+  <!--//--><![CDATA[//><!--
+    MathJax.Hub.Config({
+      MathML: { useMathMLspacing: true },
+      "HTML-CSS": { scale: 90,
+                    noReflows: false,
+                    extensions: ["handle-floats.js"]
+       }
+    });
+    MathJax.Hub.Queue( function () {
+       var fos = document.getElementsByTagName('foreignObject');
+       for (var i = 0; i < fos.length; i++) {
+         MathJax.Hub.Typeset(fos[i]);
+       }
+    });
+  //--><!]]>
+  </script>
+  <script type="text/javascript">
+    if (!(Prototype.Browser.Gecko || navigator.userAgent.match(/MathPlayer/))) {
+      var s = document.createElement('script');
+      s.src = "/MathJax/MathJax.js?config=MML_HTMLorMML-full";
+      document.querySelector('head').appendChild(s);
+    };
+  </script>
+  	<link href="http://localhost:2500/guyspersonalwiki/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="http://localhost:2500/guyspersonalwiki/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+<div id="Content">
+  <h1 id="pageName">
+    <span id="svg_logo"><svg version="1.1" width="100%" height="100%" viewBox='0 -1 180 198' xmlns='http://www.w3.org/2000/svg'>
+      <path id="svg_logo_path" fill="#008B26" stroke-width='0.5' stroke='#000' d='
+        M170,60c4,11-1,20-12,25c-9,4-25,3-20,15c5,5,15,0,24,1c11,1,21,11,14,21c-10,15-35,6-48-1c-5-3-27-23-32-10c-1,13,15,10,22,16
+        c11,4,24,14,34,20c12,10,7,25-9,23c-11-1-22-9-30-16c-5-5-13-18-21-9c-2,6,2,11,5,14c9,9,22,14,22,31c-2,8-12,8-18,4c-4-3-9-8-11-13
+        c-3-6-5-18-12-18c-14-1-5,28-18,30c-9,2-13-9-12-16c1-14,12-24,21-31c5-4,17-13,10-20c-9-10-19,12-23,16c-7,7-17,16-31,15
+        c-9-1-18-9-11-17c5-7,14-4,23-6c6-1,15-8,8-15c-5-6-57,2-42-24c7-12,51,4,61,6c6,1,17,4,18-4c2-11-12-7-21-8c-21-2-49-14-49-34
+        c0-5,3-11,8-11C31,42,34,65,42,67c6,1,9-3,8-9C49,49,38,40,40,25c1-5,4-15,13-14c10,2,11,18,13,29c1,8,0,24,7,28c15,0,5-22,4-30
+        C74,23,78,7,87,1c8-4,14,1,16,9c2,11-8,21-2,30c8,2,11-6,14-12c9-14,36-18,30,5c-3,9-12,19-21,24c-6,4-22,10-23,19c-2,14,15,2,18-2
+        c9-9,20-18,33-22C159,52,166,54,170,60' />
+    </svg></span>
+      <span class="webName">Guy&#39;s Personal Wiki</span><br />
+      My Links
+  </h1>
+
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+    <a href="/guyspersonalwiki/show/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> | 
+    <a href="/guyspersonalwiki/list" accesskey="A" title="Alphabetically sorted list of pages">All Pages</a> | 
+    <a href="/guyspersonalwiki/recently_revised" accesskey="U" title="Pages sorted by when they were last changed">Recently Revised</a> |
+    <a href="/guyspersonalwiki/authors" title="Who wrote what">Authors</a> | 
+    <a href="/guyspersonalwiki/feeds" title="Subscribe to changes by Atom">Feeds</a> | 
+    <a href="/guyspersonalwiki/export" accesskey="X" title="Download a zip with all the pages in this wiki">Export</a> |
+<form accept-charset="utf-8" action="/guyspersonalwiki/search" id="navigationSearchForm" method="get">      <fieldset class="search"><input type="text" id="searchField" name="query" value="Search"
+             onfocus="this.value == 'Search' ? this.value = '' : true"
+             onblur="this.value == '' ? this.value = 'Search' : true" /></fieldset>
+</form>  <span id='navEnd'></span>
+</div>
+
+
+
+
+
+
+<div id="revision">
+    <h2 id='my_links'>My Links</h2>
+
+<p>E-Mail: allard.guy.m@gmail.com<br/> PW: r4…..</p>
+<hr/>
+<h3 id='launch_pad'>Launch Pad</h3>
+
+<p>bugs.launchpad.net</p>
+
+<p>Note: use SSL.</p>
+
+<p>https://launchpad.net</p>
+
+<p>allard.guy.m@gmail.com<br/> PW: r4…..</p>
+
+<p><span class='newWikiWord'>Open ID<a href='/guyspersonalwiki/new/OpenID'>?</a></span> login: https://launchpad.net/~allard-guy-m<br/> BZR launchpad-id: allard-guy-m</p>
+<hr/>
+<h3 id='&lt;span class='><span class='newWikiWord'>Java Ranch<a href='/guyspersonalwiki/new/JavaRanch'>?</a></span></h3>
+
+<p>UID: ‘Guy Allard’<br/> PW: bigguy</p>
+
+<p>Just so I do not forget!</p>
+<hr/>
+<h3 id='ircfreenodenet'>irc.freenode.net</h3>
+
+<p>Nicks: flaguy48, riverrat66<br/> PW: g9….</p>
+<hr/>
+<h3 id='media_wiki_vista_box'>Media Wiki Vista Box</h3>
+
+<p>admin: <span class='newWikiWord'>Wiki Sysop<a href='/guyspersonalwiki/new/WikiSysop'>?</a></span> PW: r4….</p>
+<hr/>
+<h3 id='ohloh'>ohloh</h3>
+
+<p>https://www.ohloh.net/accounts/gmallard</p>
+
+<p>UID: gmallard<br/> PW: r4….</p>
+<hr/>
+<h3 id='hp_media_store'>HP Media Store</h3>
+
+<p>http://www.shopping.hp.com</p>
+
+<p>UID: allard.guy.m@gmail.com<br/> PW: g9….</p>
+<hr/>
+<h3 id='linuxquestions'>Linuxquestions</h3>
+
+<p>http://www.linuxquestions.org</p>
+
+<p>UID: gmallard<br/> PW: g9….</p>
+<hr/>
+<h3 id='cplus_plus'>Cplus Plus</h3>
+
+<p>http://www.cplusplus.com</p>
+
+<p>UID: gmallard<br/> PW: r4….</p>
+<hr/>
+<h3 id='g_bugzilla'>g++ Bugzilla</h3>
+
+<p>http://gcc.gnu.org/bugzilla</p>
+
+<p>UID: allard.guy.m@gmail.com<br/> PW: r4….</p>
+<hr/>
+<h3 id='pragmatic_programmers'>Pragmatic Programmers</h3>
+
+<p>https://www.pragprog.com/my_profile</p>
+
+<p>UID: allard.guy.m@gmail.com<br/> PW: g9….</p>
+<hr/>
+<h3 id='gitorious'>gitorious</h3>
+
+<p>http://www.gitorious.org</p>
+
+<p>UID: gmallard e-mail: allard.guy.m@gmail.com PW: r4…</p>
+
+<p>Or Open ID can be used … perhaps …</p>
+<hr/>
+<h3 id='aim'>aim</h3>
+
+<p>http://chat.aim.com/</p>
+
+<p>SN: gallard914<br/> PW: r4….</p>
+
+<p>Mail: allard.guy.m@gmail.com</p>
+<hr/>
+<h3 id='mercurial'>Mercurial</h3>
+
+<p>http://mercurial.selenic.com/wiki/</p>
+
+<p>UID: guyallard<br/> PW: q12(8)</p>
+
+<p>Mail: allard.guy.m@gmail.com</p>
+<hr/>
+<h3 id='gemcutter__rubygems'>Gemcutter / Rubygems</h3>
+
+<p>http://gemcutter.org<br/> http://rubygems.org</p>
+
+<p>UID: allard.guy.m@gmail.com<br/> PW: same as rubyforge? - yes, at least initially. big….<br/> And it has not been updated (rubyforge has, see above).<br/> q12(9) - as of 2010-05020<br/> r45(9) - as of 2010-12-24</p>
+
+<p>Mail: allard.guy.m@gmail.com</p>
+<hr/>
+<h3 id='open_source_rails'>Open Source Rails</h3>
+
+<p>http://www.opensourcerails.com/</p>
+
+<p>UID: gmallard<br/> PW: g9….</p>
+<hr/>
+<h3 id='f5_site'>F5 Site</h3>
+
+<p>http://f5.com</p>
+
+<p>UID: gmail e-mail<br/> PW: g9….</p>
+<hr/>
+<h3 id='&lt;span class='><span class='newWikiWord'>Dyn DNS<a href='/guyspersonalwiki/new/DynDNS'>?</a></span></h3>
+
+<p>http://dyndns.com</p>
+
+<p>UID: gmallard<br/> PW: g9….</p>
+<hr/>
+<h3 id='slicehost'>slicehost</h3>
+
+<p>(See rackspace below, converted 2012)</p>
+
+<p>http://slicehost.com</p>
+
+<p>UID: gmail-email<br/> PW: k9A(8)… (1 cap required)</p>
+
+<p>My slice: www.gmallard.com<br/> gmallard: g9(8)….<br/> root: h6(9)…<br/> mysql: q1(9)</p>
+<hr/>
+<h3 id='bitbucket'>bitbucket</h3>
+
+<p>http://bitbucket.org</p>
+
+<p>UID: gmallard<br/> PW: r45(9)…<br/> email: gmail</p>
+
+<p>Jump through some hoops to ‘associate’ my openid login with the new account. I think this gets completed OK.<br/></p>
+
+<p>Get ssh keys for oldpete uploaded.<br/></p>
+
+<p>oldpete is gone. key for tjjackson appears to be uploaded OK.<br/></p>
+<hr/>
+<h3 id='amex'>Amex</h3>
+
+<p>Activate - 2010/06</p>
+
+<p>gmallard914<br/> r45… (i think)</p>
+<hr/>
+<h3 id='reddit'>reddit</h3>
+
+<p>reddit.com</p>
+
+<p>gmallard</p>
+
+<p>w23…</p>
+<hr/>
+<h3 id='hacker_news'>hacker news</h3>
+
+<p>news.ycombinator.com</p>
+
+<p>gmallard</p>
+
+<p>r45…</p>
+<hr/>
+<h3 id='ruby_learning'>Ruby Learning</h3>
+
+<p>rubylearning.org</p>
+
+<p>gmallard</p>
+
+<p>G9m14a48?</p>
+
+<p>(One cap, one non-alphanum)</p>
+
+<p>Not sure this is particularly useful.</p>
+<hr/>
+<h3 id='wine'>Wine</h3>
+
+<p>winehq.org</p>
+
+<p>UID: gmail<br/> PW: w23(9)</p>
+<hr/>
+<h3 id='mars_shot'>Mars Shot</h3>
+
+<p>Mars Shot Names<br/> Guy Allard<br/> Certificate #: N2M400867102</p>
+
+<p>http://marsparticipate.jpl.nasa.gov/msl/participate/sendyourname/</p>
+<hr/>
+<h3 id='examville'>Examville</h3>
+
+<p>examville.com</p>
+
+<p>UID: gmallard<br/> PW: r45(9)</p>
+<hr/>
+<h3 id='slideshare'>Slideshare</h3>
+
+<p>slideshare.net</p>
+
+<p>UID: gmallard<br/> e-mail: gmail<br/> PW: r45(9)</p>
+<hr/>
+<h3 id='apple_developer'>Apple Developer</h3>
+
+<p>apple.com</p>
+
+<p>Use gmail for store login.</p>
+
+<p>UID: gmail e-mail<br/> UIDX: gmallard<br/> PW: Q12w(9) (Note one cap)</p>
+
+<p>Current MBP PW: r45(9)</p>
+<hr/>
+<h3 id='codehaus_jira'>Codehaus JIRA</h3>
+
+<p>jira.codehaus.org</p>
+
+<p>UID: gmallard<br/> gmail e-mail<br/> PW: r45(9)</p>
+<hr/>
+<h3 id='oracle'>Oracle</h3>
+
+<p>oracle.com</p>
+
+<p>UID: gmail e-mail<br/> PW: R45t(9)<br/> Note 1st cap.</p>
+<hr/>
+<h3 id='newegg'>Newegg</h3>
+
+<p>newegg.com</p>
+
+<p>UID: gmail e-mail<br/> PW: r45(9)</p>
+<hr/>
+<h3 id='sencha'>Sencha</h3>
+
+<p>sencha.com</p>
+
+<p>UID: gmallard<br/> PW: r45(9)</p>
+<hr/>
+<h3 id='quora'>Quora</h3>
+
+<p>quora.com</p>
+
+<p>UID: gmail e-mail<br/> PW: r45(9)</p>
+<hr/>
+<h3 id='asf_apache_jira'>ASF (Apache) JIRA</h3>
+
+<p>UID: gmallard<br/> PW: r45(9)</p>
+<hr/>
+<h3 id='&lt;span class='><span class='newWikiWord'>Plastic SCM<a href='/guyspersonalwiki/new/PlasticSCM'>?</a></span></h3>
+
+<p>http://www.plasticscm.com/</p>
+
+<p>UID: gmail e-mail PW: r45(9)</p>
+<hr/>
+<h3 id='stack_overflow'>Stack Overflow</h3>
+
+<p>http://www.stackoverflow.com/</p>
+
+<p>UID: user1124731<br/> Based on gmail email address<br/> PW: ???? - why did I not doc this ????</p>
+<hr/>
+<h3 id='lwn'>LWN</h3>
+
+<p>https://lwn.net</p>
+
+<p>Note: this gives reply/post access to the git dev’s mailing list.</p>
+
+<p>UID: gmallard<br/> PW: q12(9)</p>
+<hr/>
+<h3 id='stompgem'>stompgem</h3>
+
+<p>stompgem@gmail.com<br/> r45(9)<br/> stompgem user at github r45(9)</p>
+<hr/>
+<h3 id='text_wrangler'>Text Wrangler</h3>
+
+<p>http://www.barebones.com</p>
+
+<p>Name: Guy Allard<br/> Email: allard.guy.m@gmail.com<br/> Notify: no<br/> PW: g9(8) // I think<br/> Maybe: r45(9)<br/></p>
+<hr/>
+<h3 id='golangforum'>golang-forum</h3>
+
+<p>http://golang-forum.com/index.php</p>
+
+<p>gmallard<br/> r45(9)<br/></p>
+<hr/>
+<h3 id='rackspace'>Rackspace</h3>
+
+<p>gmail-email</p>
+
+<p>Rackspace Account ID 744199<br/> Rackspace Username allardguym<br/></p>
+
+<p>https://mycloud.rackspace.com</p>
+
+<p>PW: q12W(9) 1 Cap.</p>
+<hr/>
+<h3 id='rubygems'>Rubygems</h3>
+
+<p>Re-UP here.</p>
+
+<p>rubygems.org</p>
+
+<p>guyallard / gmallard now</p>
+
+<p>q12(9) / r4(9) now</p>
+
+<p><strong>Check This</strong></p>
+<hr/>
+<h3 id='dpla'>DPLA</h3>
+
+<p>Digital Public Library of America</p>
+
+<p>Request API Key:</p>
+
+<p>curl -v -XPOST http://api.dp.la/v2/api_key/allard.guy.m@gmail.com</p>
+
+<p>Hi allard.guy.m@gmail.com,</p>
+
+<p>Your DPLA API key: 55727dbbe49288aa93dc48ac7f8962c9</p>
+
+<p>Thanks,<br/> DPLA API Support<br/> api-support@dp.la<br/></p>
+
+<p>Then, e.g:</p>
+
+<p>http://api.dp.la/v2/items?q=weasels&amp;api_key=55727dbbe49288aa93dc48ac7f8962c9</p>
+<hr/>
+<h3 id='gonutsio'>gonuts-io</h3>
+
+<p>http://www.gonuts.io</p>
+
+<p>http://www.gonuts.io/-/doc/philosophy</p>
+
+<p>Versioning scheme for go applications.</p>
+
+<p>You are logged in and registered with user account allard.guy.m@gmail.com.</p>
+
+<p>Your access token is 92311d75a978c56855696c3f32941128750f6465.</p>
+
+<p>You have publish access to following vendors:</p>
+
+<p>gmallard</p>
+<hr/>
+<h3 id='ibm_developerworks'>IBM Developerworks</h3>
+
+<p>allard.guy.m@gmail.com<br/> w23(9)<br/> Sec Q: Mother’s last name<br/> A: Dean</p>
+
+<p>https://www.ibm.com/developerworks/dwwi/jsp/WSLogin.jsp</p>
+<hr/>
+<h3 id='newegg_2'>newegg</h3>
+
+<p>allard.guy.m@gmail.com<br/> q12W23(8) // Note upper case W<br/> |Guy|127.0.0.1 191|2014-09-19 18:39:27|2014-09-19 18:39:27|2014-09-19 18:39:27|2|</p>
+<hr/>
+<h3 id='gmail'>gmail</h3>
+
+<p>allard.guy.m@gmail.com<br/> r4…</p>
+
+<p>Google Groups Nick: riverrat66</p>
+<hr/>
+<h3 id='yahoo'>Yahoo</h3>
+
+<p>gallard914<br/> g9…</p>
+
+<p>On 12/29/2008</p>
+
+<p>Still works : 01/19/2010<br/> Gets in to yahoo mail, and I do not know what else.<br/> Mail me at: gallard914@yahoo.com</p>
+
+<p>Prompt: Father Born - Laramie<br/> Fav Teacher - Vinger<br/></p>
+<hr/>
+<h3 id='bookpool'>Bookpool</h3>
+
+<p>kplacko@earthlink.net g9…</p>
+<hr/>
+<h3 id='z390'>Z390</h3>
+
+<p>guy.allard@yahoo.com - g9… (check)<br/> I think I got reactivated OK (2007.02.11), but with no e-mail.</p>
+
+<p>As of 01/19/2010 that yahoo account is still active, but I have <em>confirmed</em> it does not have e-mail capabilities.</p>
+<hr/>
+<h3 id='wikipedia_ubuntu_forums'>Wikipedia, Ubuntu Forums</h3>
+
+<p>gmallard g9….</p>
+
+<p>wikipedia apparently waxes ids if you do not use it. re-upped 2007.03.05</p>
+
+<p>For Ubuntu One - one.ubuntu.com:</p>
+
+<p>Use launchpad ID and PW.</p>
+<hr/>
+<h3 id='ubuntu_counter'>Ubuntu Counter</h3>
+
+<p>id=bigguy<br/> pw=g9…..<br/> em=allard.guy.m@gmail.com</p>
+<hr/>
+<h3 id='sourceforge'>Sourceforge</h3>
+
+<p>uid=gallard<br/> pw=r4….</p>
+<hr/>
+<h3 id='rubyforge'>Rubyforge</h3>
+
+<p>uid=gallard // Changed 02/15/2010 pw=q12(9)…</p>
+
+<p><strong>Check. This is all wrong I think.</strong></p>
+<hr/>
+<h3 id='jboss'>JBoss</h3>
+
+<p>uid=gallard pw=g9…</p>
+<hr/>
+<h3 id='mashable_amazon'>Mashable, Amazon</h3>
+
+<p>uid=(blue bottle email)<br/> pw=g9…</p>
+
+<p>http://my.mashable.com/guy</p>
+<hr/>
+<h3 id='linuxvault'>Linuxvault</h3>
+
+<p>http://www.thelinuxvault.net</p>
+
+<p>uid=(blue bottle email)<br/> pw=k9…</p>
+<hr/>
+<h3 id='open_symphony_pownce'>Open Symphony, Pownce</h3>
+
+<p>http://www.opensymphony.com<br/> http://www.pownce.com</p>
+
+<p>uid=gmallard<br/> pw=g9…<br/></p>
+<hr/>
+<h3 id='&lt;span class='><span class='newWikiWord'>Ice Faces<a href='/guyspersonalwiki/new/IceFaces'>?</a></span></h3>
+
+<p>http://www.icefaces.org</p>
+
+<p>uid=gmallard<br/> pw=g9…</p>
+<hr/>
+<h3 id='git_public_repo'>Git Public Repo</h3>
+
+<p>http://repo.or.cz</p>
+
+<p>uid=bigguy (old)<br/> uid=gmallard</p>
+
+<p>No PW. All ssh. Keys from current Ubuntu and Fedora systems. If someone says OK, then I have push capability. Theory.</p>
+
+<p>Set up stomp mirror. Admin ID is gmallard. Admin PW is: ?? g9… ???</p>
+
+<p>For stompngo, pw is definitely g9….</p>
+
+<p><strong>Review All This</strong></p>
+<hr/>
+<h3 id='computing_net'>Computing .net</h3>
+
+<p>http://computing.net</p>
+
+<p>uid=GuyA<br/> pw=g9…</p>
+
+<p>Created, can not remember the pw for user ‘Guy’.</p>
+<hr/>
+<h3 id='&lt;span class='><span class='newWikiWord'>Git Hub<a href='/guyspersonalwiki/new/GitHub'>?</a></span></h3>
+
+<p>http://github.com</p>
+
+<p>uid=gmallard<br/> pw=r4…</p>
+
+<p>Added new e-mail, 20080618</p>
+<hr/>
+<h3 id='gravatar'>Gravatar</h3>
+
+<p>http://en.gravatar.com</p>
+
+<p>uid=gmallard@bluebottle.com<br/> nick=gmallard (this may be the uid!!)<br/> pw=r4…</p>
+
+<p>uid=allard.guy.m@gmail.com<br/> nick=guyallard<br/> pw=r4….</p>
+<hr/>
+<h3 id='unfuddle'>Unfuddle</h3>
+
+<p>SVN and git hosting.</p>
+
+<p>http://unfuddle.com</p>
+
+<p>Login here:<br/> Subdomain: gmallard.unfuddle.com</p>
+
+<p>E-mail: allard.guy.m@gmail.com</p>
+
+<p>User ID: gmallard pw=r4…</p>
+
+<p>Mike’s project there: apptrain/masterlink:</p>
+
+<p>Subdomain: apptrain.unfuddle.com</p>
+
+<p>UID: guy PW: r4…</p>
+
+<p><strong>This account was revoked - not using enough</strong></p>
+<hr/>
+<h3 id='peepcode'>Peepcode</h3>
+
+<p>E-Mail: allard.guy.m@gmail.com<br/> PW: r4…..</p>
+<hr/>
+<h3 id='gitlab'>gitlab</h3>
+
+<p>User Name: Guy Allard<br/> <span class='newWikiWord'>User ID<a href='/guyspersonalwiki/new/UserID'>?</a></span>: gmallard<br/> e-mail: allard.guy.m@gmail.com<br/> pw: q12(8)</p>
+</div>
+
+<div class="byline">
+  Revised on April 10, 2016 16:07:12 
+  by <span class="newWikiWord">Guy Allard<a href="/guyspersonalwiki/new/Guy+Allard">?</a></span>
+  (127.0.0.1)
+</div>
+
+<div class="navigation navfoot">
+
+  <a href="/guyspersonalwiki/edit/MyLinks" accesskey="E" class="navlink" id="edit" rel="nofollow">Edit</a> | <a href="/guyspersonalwiki/revision/MyLinks/2" accesskey="B" class="navlink" id="to_previous_revision" rel="nofollow">Back in time</a> <span class='revisions'>(2 revisions)</span> | <a href="/guyspersonalwiki/show/diff/MyLinks" accesskey="C" class="navlink" id="see_changes" rel="nofollow">See changes</a> | <a href="/guyspersonalwiki/history/MyLinks" accesskey="S" class="navlink" id="history" rel="nofollow">History</a>
+  
+  <span class="views">
+    | Views: 
+    <a href="/guyspersonalwiki/print/MyLinks" accesskey="p" id="view_print" rel="nofollow">Print</a>
+    | 
+    <a href="/guyspersonalwiki/tex/MyLinks" id="view_tex" rel="nofollow">TeX</a>
+    |
+    <a href="/guyspersonalwiki/source/MyLinks" id="view_source" rel="nofollow">Source</a>
+  </span>
+
+  
+  <span class="linked">
+    | Linked from: 
+    <a href="/guyspersonalwiki/show/HomePage">Home Page</a>
+  </span>
+
+
+</div>
+
+
+    <div id="footer">
+    <div>This site is running on <a href="http://golem.ph.utexas.edu/instiki/show/HomePage">Instiki 0.19.7(MML+)</a></div>
+    <div>Powered by <a href="http://rubyonrails.com/">Ruby on Rails</a>  2.3.18</div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+</html>
+:ET
