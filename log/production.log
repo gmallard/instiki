@@ -1418,3 +1418,27 @@ Maruku took 0.002484913 seconds.
 Rendered wiki/_inbound_links (0.7ms)
 Cached fragment miss: localhost:2500/guyspersonalwiki/show/HomePage (0.4ms)
 Completed in 26ms (View: 15, DB: 4) | 200 OK [http://localhost/guyspersonalwiki/show/HomePage]
+** Erubis 2.7.0
+
+
+Processing WikiController#index (for 127.0.0.1 at 2016-04-11 14:44:23) [GET]
+Redirected to http://localhost:2500/guyspersonalwiki/show/HomePage
+Completed in 115ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing WikiController#show (for 127.0.0.1 at 2016-04-11 14:44:23) [GET]
+  Parameters: {"web"=>"guyspersonalwiki", "id"=>"HomePage"}
+Reading page 'HomePage' from web 'guyspersonalwiki'
+Page 'HomePage'  found
+Cached fragment hit: views/guyspersonalwiki/show/HomePage (0.7ms)
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x000000020ae0b8 @kind=:filter, @method=#<Proc:0x000000020ae4f0@/ad2/gma/instiki/vendor/rails/actionpack/lib/action_controller/caching/actions.rb:64>, @identifier=nil, @options={:only=>#<Set: {"show", "published", "authors", "tex", "s5", "print", "recently_revised", "list", "file_list", "source", "history", "revision", "atom_with_content", "atom_with_headlines", "atom_with_changes"}>, :if=>#<Proc:0x000000020ae770@/ad2/gma/instiki/app/controllers/wiki_controller.rb:13>, :unless=>nil}>] did_not_yield.
+Completed in 7ms (View: 0, DB: 1) | 200 OK [http://localhost/guyspersonalwiki/show/HomePage]
+
+
+Processing WikiController#show (for 127.0.0.1 at 2016-04-11 14:44:28) [GET]
+  Parameters: {"web"=>"guyspersonalwiki", "id"=>"MyLinks"}
+Reading page 'MyLinks' from web 'guyspersonalwiki'
+Page 'MyLinks'  found
+Cached fragment hit: views/guyspersonalwiki/show/MyLinks (0.7ms)
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x000000020ae0b8 @kind=:filter, @method=#<Proc:0x000000020ae4f0@/ad2/gma/instiki/vendor/rails/actionpack/lib/action_controller/caching/actions.rb:64>, @identifier=nil, @options={:only=>#<Set: {"show", "published", "authors", "tex", "s5", "print", "recently_revised", "list", "file_list", "source", "history", "revision", "atom_with_content", "atom_with_headlines", "atom_with_changes"}>, :if=>#<Proc:0x000000020ae770@/ad2/gma/instiki/app/controllers/wiki_controller.rb:13>, :unless=>nil}>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/guyspersonalwiki/show/MyLinks]
