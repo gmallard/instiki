@@ -1,0 +1,26 @@
+current directory: /ad2/gma/instiki/vendor/bundle/ruby/2.3.0/gems/iconv-1.0.4/ext/iconv
+/opt/r230_007/bin/ruby2.3.0 -r ./siteconf20160325-14384-3kceo0.rb extconf.rb
+checking for rb_enc_get() in ruby/encoding.h... yes
+checking for rb_sys_fail_str() in ruby.h... yes
+checking for iconv() in iconv.h... yes
+checking signedness of size_t... unsigned
+checking for const of iconv() 2nd argument... no
+checking for iconvlist() in iconv.h... no
+checking for __iconv_free_list() in iconv.h... no
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /ad2/gma/instiki/vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0/iconv-1.0.4/mkmf.log
+
+current directory: /ad2/gma/instiki/vendor/bundle/ruby/2.3.0/gems/iconv-1.0.4/ext/iconv
+make "DESTDIR=" clean
+
+current directory: /ad2/gma/instiki/vendor/bundle/ruby/2.3.0/gems/iconv-1.0.4/ext/iconv
+make "DESTDIR="
+compiling iconv.c
+linking shared-object iconv/iconv.so
+
+current directory: /ad2/gma/instiki/vendor/bundle/ruby/2.3.0/gems/iconv-1.0.4/ext/iconv
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 iconv.so ./.gem.20160325-14384-b8gn87/iconv

@@ -1,0 +1,157 @@
+I"Á<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>
+      Guy&#39;s Personal Wiki
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  
+ 
+  <link href="/stylesheets/instiki.css?1458940298" media="all" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/syntax.css?1458940298" media="all" rel="stylesheet" type="text/css" />
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #008B26; 
+    }
+    a:visited.existingWikiWord {
+      color: #005c19;
+    }
+    
+    
+  </style>
+  
+  <style type="text/css"><!--/*--><![CDATA[/*><!--*/    
+    
+  /*]]>*/--></style>
+  <script src="/javascripts/prototype.js?1458940298" type="text/javascript"></script>
+<script src="/javascripts/effects.js?1458940298" type="text/javascript"></script>
+<script src="/javascripts/dragdrop.js?1458940298" type="text/javascript"></script>
+<script src="/javascripts/controls.js?1458940298" type="text/javascript"></script>
+<script src="/javascripts/application.js?1458940298" type="text/javascript"></script>
+  <script src="/javascripts/page_helper.js?1458940298" type="text/javascript"></script>
+  
+  <script type="text/x-mathjax-config">
+  <!--//--><![CDATA[//><!--
+    MathJax.Hub.Config({
+      MathML: { useMathMLspacing: true },
+      "HTML-CSS": { scale: 90,
+                    noReflows: false,
+                    extensions: ["handle-floats.js"]
+       }
+    });
+    MathJax.Hub.Queue( function () {
+       var fos = document.getElementsByTagName('foreignObject');
+       for (var i = 0; i < fos.length; i++) {
+         MathJax.Hub.Typeset(fos[i]);
+       }
+    });
+  //--><!]]>
+  </script>
+  <script type="text/javascript">
+    if (!(Prototype.Browser.Gecko || navigator.userAgent.match(/MathPlayer/))) {
+      var s = document.createElement('script');
+      s.src = "/MathJax/MathJax.js?config=MML_HTMLorMML-full";
+      document.querySelector('head').appendChild(s);
+    };
+  </script>
+  	<link href="http://localhost:2500/guyspersonalwiki/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="http://localhost:2500/guyspersonalwiki/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+<div id="Content">
+  <h1 id="pageName">
+    <span id="svg_logo"><svg version="1.1" width="100%" height="100%" viewBox='0 -1 180 198' xmlns='http://www.w3.org/2000/svg'>
+      <path id="svg_logo_path" fill="#008B26" stroke-width='0.5' stroke='#000' d='
+        M170,60c4,11-1,20-12,25c-9,4-25,3-20,15c5,5,15,0,24,1c11,1,21,11,14,21c-10,15-35,6-48-1c-5-3-27-23-32-10c-1,13,15,10,22,16
+        c11,4,24,14,34,20c12,10,7,25-9,23c-11-1-22-9-30-16c-5-5-13-18-21-9c-2,6,2,11,5,14c9,9,22,14,22,31c-2,8-12,8-18,4c-4-3-9-8-11-13
+        c-3-6-5-18-12-18c-14-1-5,28-18,30c-9,2-13-9-12-16c1-14,12-24,21-31c5-4,17-13,10-20c-9-10-19,12-23,16c-7,7-17,16-31,15
+        c-9-1-18-9-11-17c5-7,14-4,23-6c6-1,15-8,8-15c-5-6-57,2-42-24c7-12,51,4,61,6c6,1,17,4,18-4c2-11-12-7-21-8c-21-2-49-14-49-34
+        c0-5,3-11,8-11C31,42,34,65,42,67c6,1,9-3,8-9C49,49,38,40,40,25c1-5,4-15,13-14c10,2,11,18,13,29c1,8,0,24,7,28c15,0,5-22,4-30
+        C74,23,78,7,87,1c8-4,14,1,16,9c2,11-8,21-2,30c8,2,11-6,14-12c9-14,36-18,30,5c-3,9-12,19-21,24c-6,4-22,10-23,19c-2,14,15,2,18-2
+        c9-9,20-18,33-22C159,52,166,54,170,60' />
+    </svg></span>
+      <span class="webName">Guy&#39;s Personal Wiki</span><br />
+      Home Page
+  </h1>
+
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+    <b class="navOn" title="Home, Sweet Home">Home Page</b> | 
+    <a href="/guyspersonalwiki/list" accesskey="A" title="Alphabetically sorted list of pages">All Pages</a> | 
+    <a href="/guyspersonalwiki/recently_revised" accesskey="U" title="Pages sorted by when they were last changed">Recently Revised</a> |
+    <a href="/guyspersonalwiki/authors" title="Who wrote what">Authors</a> | 
+    <a href="/guyspersonalwiki/feeds" title="Subscribe to changes by Atom">Feeds</a> | 
+    <a href="/guyspersonalwiki/export" accesskey="X" title="Download a zip with all the pages in this wiki">Export</a> |
+<form accept-charset="utf-8" action="/guyspersonalwiki/search" id="navigationSearchForm" method="get">      <fieldset class="search"><input type="text" id="searchField" name="query" value="Search"
+             onfocus="this.value == 'Search' ? this.value = '' : true"
+             onblur="this.value == '' ? this.value = 'Search' : true" /></fieldset>
+</form>  <span id='navEnd'></span>
+</div>
+
+
+
+
+
+
+<div id="revision">
+    <h2 id='home_page_header'>Home Page Header</h2>
+
+<p>TODO:</p>
+
+<ul>
+<li>other pages</li>
+
+<li>data from previous instiki (mostly done, but â€¦)</li>
+
+<li>review previous data again</li>
+</ul>
+
+<h3 id='my_links_and_such'>My Links and Such</h3>
+
+<p><a class='existingWikiWord' href='/guyspersonalwiki/show/MyLinks'>MyLinks</a></p>
+</div>
+
+<div class="byline">
+  Revised on April 10, 2016 16:09:08 
+  by <span class="newWikiWord">Guy Allard<a href="/guyspersonalwiki/new/Guy+Allard">?</a></span>
+  (127.0.0.1)
+</div>
+
+<div class="navigation navfoot">
+
+  <a href="/guyspersonalwiki/edit/HomePage" accesskey="E" class="navlink" id="edit" rel="nofollow">Edit Page</a> | <a href="/guyspersonalwiki/edit_web" accesskey="W" class="navlink" id="edit_web" rel="nofollow">Edit Web</a> | <a href="/guyspersonalwiki/revision/HomePage/1" accesskey="B" class="navlink" id="to_previous_revision" rel="nofollow">Back in time</a> <span class='revisions'>(1 revision)</span> | <a href="/guyspersonalwiki/show/diff/HomePage" accesskey="C" class="navlink" id="see_changes" rel="nofollow">See changes</a> | <a href="/guyspersonalwiki/history/HomePage" accesskey="S" class="navlink" id="history" rel="nofollow">History</a>
+  
+  <span class="views">
+    | Views: 
+    <a href="/guyspersonalwiki/print/HomePage" accesskey="p" id="view_print" rel="nofollow">Print</a>
+    | 
+    <a href="/guyspersonalwiki/tex/HomePage" id="view_tex" rel="nofollow">TeX</a>
+    |
+    <a href="/guyspersonalwiki/source/HomePage" id="view_source" rel="nofollow">Source</a>
+  </span>
+
+  
+
+</div>
+
+
+    <div id="footer">
+    <div>This site is running on <a href="http://golem.ph.utexas.edu/instiki/show/HomePage">Instiki 0.19.7(MML+)</a></div>
+    <div>Powered by <a href="http://rubyonrails.com/">Ruby on Rails</a>  2.3.18</div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+</html>
+:ET
