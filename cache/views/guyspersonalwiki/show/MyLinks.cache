@@ -1,4 +1,4 @@
-I"¹G<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+I"}I<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>
@@ -10,8 +10,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   
  
-  <link href="/stylesheets/instiki.css?1458940298" media="all" rel="stylesheet" type="text/css" />
-  <link href="/stylesheets/syntax.css?1458940298" media="all" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/instiki.css?1460602223" media="all" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/syntax.css?1460602223" media="all" rel="stylesheet" type="text/css" />
   <style type="text/css">
     h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
       color: #008B26; 
@@ -26,12 +26,12 @@
   <style type="text/css"><!--/*--><![CDATA[/*><!--*/    
     
   /*]]>*/--></style>
-  <script src="/javascripts/prototype.js?1458940298" type="text/javascript"></script>
-<script src="/javascripts/effects.js?1458940298" type="text/javascript"></script>
-<script src="/javascripts/dragdrop.js?1458940298" type="text/javascript"></script>
-<script src="/javascripts/controls.js?1458940298" type="text/javascript"></script>
-<script src="/javascripts/application.js?1458940298" type="text/javascript"></script>
-  <script src="/javascripts/page_helper.js?1458940298" type="text/javascript"></script>
+  <script src="/javascripts/prototype.js?1460602223" type="text/javascript"></script>
+<script src="/javascripts/effects.js?1460602223" type="text/javascript"></script>
+<script src="/javascripts/dragdrop.js?1460602223" type="text/javascript"></script>
+<script src="/javascripts/controls.js?1460602223" type="text/javascript"></script>
+<script src="/javascripts/application.js?1460602223" type="text/javascript"></script>
+  <script src="/javascripts/page_helper.js?1460602223" type="text/javascript"></script>
   
   <script type="text/x-mathjax-config">
   <!--//--><![CDATA[//><!--
@@ -587,17 +587,31 @@
 <h3 id='gitlab'>gitlab</h3>
 
 <p>User Name: Guy Allard<br/> <span class='newWikiWord'>User ID<a href='/guyspersonalwiki/new/UserID'>?</a></span>: gmallard<br/> e-mail: allard.guy.m@gmail.com<br/> pw: q12(8)</p>
+<hr/>
+<h3 id='gitbook'>gitbook</h3>
+
+<p>github based logins</p>
+
+<p>URL: https://www.gitbook.com/@gmallard/dashboard</p>
+
+<p>User Name: Based on github<br/> <span class='newWikiWord'>User ID<a href='/guyspersonalwiki/new/UserID'>?</a></span>: Based in github e-mail address<br/> e-mail: allard.guy.m@gmail.com<br/> pw: N/A</p>
+<hr/>
+<h3 id='xmarks'>xmarks</h3>
+
+<p>UID: gmallard<br/> PW: q12(9)</p>
+
+<p>http://www.xmarks.com/firefox/success/4.3.18</p>
 </div>
 
 <div class="byline">
-  Revised on April 10, 2016 16:07:12 
+  Revised on April 18, 2016 10:07:02 
   by <span class="newWikiWord">Guy Allard<a href="/guyspersonalwiki/new/Guy+Allard">?</a></span>
   (127.0.0.1)
 </div>
 
 <div class="navigation navfoot">
 
-  <a href="/guyspersonalwiki/edit/MyLinks" accesskey="E" class="navlink" id="edit" rel="nofollow">Edit</a> | <a href="/guyspersonalwiki/revision/MyLinks/2" accesskey="B" class="navlink" id="to_previous_revision" rel="nofollow">Back in time</a> <span class='revisions'>(2 revisions)</span> | <a href="/guyspersonalwiki/show/diff/MyLinks" accesskey="C" class="navlink" id="see_changes" rel="nofollow">See changes</a> | <a href="/guyspersonalwiki/history/MyLinks" accesskey="S" class="navlink" id="history" rel="nofollow">History</a>
+  <a href="/guyspersonalwiki/edit/MyLinks" accesskey="E" class="navlink" id="edit" rel="nofollow">Edit</a> | <a href="/guyspersonalwiki/revision/MyLinks/4" accesskey="B" class="navlink" id="to_previous_revision" rel="nofollow">Back in time</a> <span class='revisions'>(4 revisions)</span> | <a href="/guyspersonalwiki/show/diff/MyLinks" accesskey="C" class="navlink" id="see_changes" rel="nofollow">See changes</a> | <a href="/guyspersonalwiki/history/MyLinks" accesskey="S" class="navlink" id="history" rel="nofollow">History</a>
   
   <span class="views">
     | Views: 
