@@ -1,0 +1,20 @@
+/opt/gma/r210_492/bin/ruby2.1.0 extconf.rb --with-iconv-dir=/usr/local
+checking for rb_enc_get() in ruby/encoding.h... yes
+checking for rb_sys_fail_str() in ruby.h... yes
+checking for iconv() in iconv.h... no
+checking for iconv() in -liconv... yes
+checking signedness of size_t... unsigned
+checking for const of iconv() 2nd argument... no
+checking for iconvlist() in iconv.h... yes
+checking for __iconv_free_list() in iconv.h... no
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling iconv.c
+linking shared-object iconv/iconv.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 iconv.bundle ./.gem.20161021-817-1l1f3wg/iconv
+installing default iconv libraries

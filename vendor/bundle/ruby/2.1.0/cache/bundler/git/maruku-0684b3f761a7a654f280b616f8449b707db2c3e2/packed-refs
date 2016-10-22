@@ -1,0 +1,4 @@
+# pack-refs with: peeled fully-peeled 
+6f6a60953ddeca04155afc28013cc3021de49738 refs/heads/cleanup
+de976ff08676faafff5ef4ecb17da138989766ae refs/heads/master
+c67cc8375dd70bae30d7277dc54ccba04802b316 refs/heads/nokogiri
