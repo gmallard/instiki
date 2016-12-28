@@ -316,7 +316,15 @@ module Rack
         if get_header(RACK_REQUEST_QUERY_STRING) == query_string
           get_header(RACK_REQUEST_QUERY_HASH)
         else
+### p [ "DBG01", query_string ]
+	single = query_string == "" ? true : false
+### p [ "DBG02", single ]
+	if single
+          query_hash = parse_query(query_string)
+	else
           query_hash = parse_query(query_string, '&;')
+	end
+          ### query_hash = parse_query(query_string, '&;')
           set_header(RACK_REQUEST_QUERY_STRING, query_string)
           set_header(RACK_REQUEST_QUERY_HASH, query_hash)
         end

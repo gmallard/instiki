@@ -1,4 +1,4 @@
-I"�,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+I"s.<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>
@@ -10,8 +10,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   
  
-  <link href="/stylesheets/instiki.css?1461379246" media="all" rel="stylesheet" type="text/css" />
-  <link href="/stylesheets/syntax.css?1461379246" media="all" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/instiki.css?1482946136" media="all" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/syntax.css?1482946136" media="all" rel="stylesheet" type="text/css" />
   <style type="text/css">
     h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
       color: #008B26; 
@@ -26,12 +26,12 @@
   <style type="text/css"><!--/*--><![CDATA[/*><!--*/    
     
   /*]]>*/--></style>
-  <script src="/javascripts/prototype.js?1461379246" type="text/javascript"></script>
-<script src="/javascripts/effects.js?1461379246" type="text/javascript"></script>
-<script src="/javascripts/dragdrop.js?1461379246" type="text/javascript"></script>
-<script src="/javascripts/controls.js?1461379246" type="text/javascript"></script>
-<script src="/javascripts/application.js?1461379246" type="text/javascript"></script>
-  <script src="/javascripts/page_helper.js?1461379246" type="text/javascript"></script>
+  <script src="/javascripts/prototype.js?1482946136" type="text/javascript"></script>
+<script src="/javascripts/effects.js?1482946136" type="text/javascript"></script>
+<script src="/javascripts/dragdrop.js?1482946136" type="text/javascript"></script>
+<script src="/javascripts/controls.js?1482946136" type="text/javascript"></script>
+<script src="/javascripts/application.js?1482946136" type="text/javascript"></script>
+  <script src="/javascripts/page_helper.js?1482946136" type="text/javascript"></script>
   
   <script type="text/x-mathjax-config">
   <!--//--><![CDATA[//><!--
@@ -102,9 +102,12 @@
 
 
 <div id="revision">
-    <h1 id='local_databases'>Local Databases</h1>
+    
+<h1 id='local_databases'>Local Databases</h1>
 <hr/>
 <h2 id='postgres'>Postgres</h2>
+
+<p>TODO: This is totally outdated. Revise or remove.</p>
 
 <p>Used synaptic for installation.</p>
 
@@ -114,16 +117,21 @@
 
 <p>Then su to postgres and issue:</p>
 
-<pre><code>createuser -P -s -e sysadm</code></pre>
+<p>“</p>
+
+<p>createuser -P -s -e sysadm</p>
+
+<p>“</p>
 
 <p>and set PW: r45(9)</p>
 
 <p>Console Log:</p>
 
-<pre><code>postgres@tjjackson:~$ createuser -P -s -e sysadm
-Enter password for new role: 
-Enter it again: 
-CREATE ROLE sysadm PASSWORD &#39;md5afb0ab6d40746a6d41bc28a867bfb54a&#39; SUPERUSER CREATEDB CREATEROLE INHERIT LOGIN;</code></pre>
+<p>“</p>
+
+<p>postgres@tjjackson:~$ createuser -P -s -e sysadm Enter password for new role: Enter it again: CREATE ROLE sysadm PASSWORD ‘md5afb0ab6d40746a6d41bc28a867bfb54a’ SUPERUSER CREATEDB CREATEROLE INHERIT LOGIN;</p>
+
+<p>“</p>
 
 <p>Also added</p>
 <pre>phpPgAdmin</pre>
@@ -133,9 +141,13 @@ CREATE ROLE sysadm PASSWORD &#39;md5afb0ab6d40746a6d41bc28a867bfb54a&#39; SUPERU
 <hr/>
 <h2 id='mysql'>Mysql</h2>
 
+<p>TODO: This is totally outdated. Revise or remove.</p>
+
 <p>Used synaptic, for both client and server.</p>
 
-<pre><code>&lt;info&gt;
+<p>“</p>
+<pre class='markdown-html-error' style='border: solid 3px red; background-color: pink;'>Maruku could not parse this XML/HTML: 
+&lt;info&gt;
 	&lt;version&gt;
 		5.5
 	&lt;/version&gt;
@@ -149,18 +161,21 @@ CREATE ROLE sysadm PASSWORD &#39;md5afb0ab6d40746a6d41bc28a867bfb54a&#39; SUPERU
 	    &lt;added&gt;
 		libre-office-interface
 	    &lt;added&gt;
-	&lt;/additions&gt;
-        &lt;users&gt;
-            &lt;name value=&quot;root&quot; creds=&quot;q12(9)&quot; &gt;
-        &lt;/users&gt;
-        &lt;url&gt;
-            http://localhost/phpmyadmin
-        &lt;/url&gt;
-&lt;/info&gt;</code></pre>
+	</pre>
+<pre><code>    &lt;users&gt;
+        &lt;name value=&quot;root&quot; creds=&quot;q12(9)&quot; &gt;
+    &lt;/users&gt;
+    &lt;url&gt;
+        http://localhost/phpmyadmin
+    &lt;/url&gt;</code></pre>
+
+<p>“</p>
 
 <p>URL: <a href='http://localhost/phpmyadmin/'>Mysql Admin</a></p>
 <hr/>
 <h2 id='mongo'>mongo</h2>
+
+<p>TOD: Update per new system.</p>
 
 <p>Installed using synaptic (I think).</p>
 
@@ -170,7 +185,11 @@ CREATE ROLE sysadm PASSWORD &#39;md5afb0ab6d40746a6d41bc28a867bfb54a&#39; SUPERU
 
 <p>Client access using:</p>
 
-<pre><code>mongo</code></pre>
+<p>“</p>
+
+<p>mongo</p>
+
+<p>“</p>
 
 <p>from the command line.</p>
 
@@ -183,6 +202,8 @@ CREATE ROLE sysadm PASSWORD &#39;md5afb0ab6d40746a6d41bc28a867bfb54a&#39; SUPERU
 <p><a href='https://docs.mongodb.com/'>Mongo Documentation</a></p>
 <hr/>
 <h2 id='couchbaseserver'>couchbaseserver</h2>
+
+<p>TODO: Remove. Couchbase no longer installed (new system).</p>
 
 <p>I originally had couchdb installed from the Ubuntu repositories.</p>
 
@@ -205,6 +226,8 @@ CREATE ROLE sysadm PASSWORD &#39;md5afb0ab6d40746a6d41bc28a867bfb54a&#39; SUPERU
 <p><a href='http://developer.couchbase.com'>Couchbase Docs</a></p>
 <hr/>
 <h2 id='&lt;span class='><span class='newWikiWord'>Open LDAP<a href='/guyspersonalwiki/new/OpenLDAP'>?</a></span></h2>
+
+<p>TODO: <span class='newWikiWord'>Open LDAP<a href='/guyspersonalwiki/new/OpenLDAP'>?</a></span> is not installed on the new system.</p>
 
 <p>Installed <span class='newWikiWord'>Open LDAP<a href='/guyspersonalwiki/new/OpenLDAP'>?</a></span> server from the Ubuntu repositories (using synaptic). The LDAP utilities was also included in the install.</p>
 
@@ -250,7 +273,7 @@ CREATE ROLE sysadm PASSWORD &#39;md5afb0ab6d40746a6d41bc28a867bfb54a&#39; SUPERU
 
 <p>01) Create categories to use later. Categories are: groups and users.</p>
 
-<p>Bunch of warnings at top of page. Bottom gives list i=of what can be added.</p>
+<p>Bunch of warnings at top of page. Bottom gives list of what can be added.</p>
 
 <p>Generic Organizational Utit -&gt; groups</p>
 
@@ -273,17 +296,18 @@ CREATE ROLE sysadm PASSWORD &#39;md5afb0ab6d40746a6d41bc28a867bfb54a&#39; SUPERU
 <p>I can find zero docs on how I did all this: no notes, no ldif files, nada.</p>
 
 <p>More later ……</p>
+
 </div>
 
 <div class="byline">
-  Revised on August  4, 2016 08:57:05 
-  by <span class="newWikiWord">GMA<a href="/guyspersonalwiki/new/GMA">?</a></span>
+  Revised on December 28, 2016 15:38:47 
+  by <span class="newWikiWord">GMAllard<a href="/guyspersonalwiki/new/GMAllard">?</a></span>
   (127.0.0.1)
 </div>
 
 <div class="navigation navfoot">
 
-  <a href="/guyspersonalwiki/edit/LocalDatabases" accesskey="E" class="navlink" id="edit" rel="nofollow">Edit</a> | <a href="/guyspersonalwiki/revision/LocalDatabases/6" accesskey="B" class="navlink" id="to_previous_revision" rel="nofollow">Back in time</a> <span class='revisions'>(6 revisions)</span> | <a href="/guyspersonalwiki/show/diff/LocalDatabases" accesskey="C" class="navlink" id="see_changes" rel="nofollow">See changes</a> | <a href="/guyspersonalwiki/history/LocalDatabases" accesskey="S" class="navlink" id="history" rel="nofollow">History</a>
+  <a href="/guyspersonalwiki/edit/LocalDatabases" accesskey="E" class="navlink" id="edit" rel="nofollow">Edit</a> | <a href="/guyspersonalwiki/revision/LocalDatabases/7" accesskey="B" class="navlink" id="to_previous_revision" rel="nofollow">Back in time</a> <span class='revisions'>(7 revisions)</span> | <a href="/guyspersonalwiki/show/diff/LocalDatabases" accesskey="C" class="navlink" id="see_changes" rel="nofollow">See changes</a> | <a href="/guyspersonalwiki/history/LocalDatabases" accesskey="S" class="navlink" id="history" rel="nofollow">History</a>
   
   <span class="views">
     | Views: 
