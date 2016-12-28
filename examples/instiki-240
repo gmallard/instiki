@@ -1,0 +1,89 @@
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides:          instiki
+# Required-Start:    $local_fs $network $named $time $syslog
+# Required-Stop:     $local_fs $network $named $time $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Description:       gmallard's local wiki
+### END INIT INFO
+
+SCRIPT=/ad3/gma/ad3/instiki/instiki.rb
+RUNAS=gmallard
+NOOUT="> /dev/null 2> /dev/null"
+SERVICE=`basename "$0"`
+
+# Sometimes the extracted field needs to be -f1, other times -f2.
+getipid () {
+  ipid=$(ps  -o pid,cmd -U gmallard|grep "instiki.rb"|grep -v grep|cut -d" " -f1)
+  if [ "X${ipid}" = "X" ]
+  then
+    ipid=$(ps  -o pid,cmd -U gmallard|grep "instiki.rb"|grep -v grep|cut -d" " -f2)
+  fi
+}
+
+start() {
+#set -x
+  echo "Starting Service ${SERVICE} …" >&2
+  getipid
+  if [ X"${ipid}" != "X" ]
+  then
+    echo "Service ${SERVICE} already running PID ${ipid}"
+    return 1
+  fi
+
+  su -l gmallard -c "RUBY_HOME=/opt/r24x PATH=/opt/r24x/bin ${SCRIPT} $NOOUT &"
+
+  getipid
+  if [ X"${ipid}" = "X" ]
+  then
+    echo "Service ${SERVICE} FAILED start!!!!"
+  else
+    echo "Service ${SERVICE} started, PID ${ipid}"
+  fi
+  return 0
+#set +x
+}
+
+stop() {
+  getipid
+  if [ X"${ipid}" = "X" ]
+  then
+    echo "Service ${SERVICE} is not running"
+    return 1
+  fi
+  echo "Stopping Service ${SERVICE}, ${ipid}" >&2
+  su -l gmallard -c "kill ${ipid}"
+  echo "Service stopped ${SERVICE}, PID ${ipid}" >&2
+  return 0
+set +x
+}
+
+status() {
+  getipid
+  # echo "ipid status: |${ipid}|"
+  if [ X"${ipid}" = "X" ]
+  then
+    echo "Service ${SERVICE} is not running"
+  else
+    echo "Service ${SERVICE} running, PID ${ipid}"
+  fi
+  return 0
+}
+
+case "$1" in
+  start)
+    start
+    ;;
+  stop)
+    stop
+    ;;
+  status)
+    status
+  ;;
+  *)
+    echo "Usage: $0 {start|status|stop}"
+esac
+
+
+
