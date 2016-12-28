@@ -1,4 +1,4 @@
-I"�I<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+I"�K<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>
@@ -102,7 +102,7 @@
 
 
 <div id="revision">
-    <h2 id='my_links'>My Links</h2>
+    <h1 id='my_links'>My Links</h1>
 
 <p>E-Mail: allard.guy.m@gmail.com<br/> PW: r4…..</p>
 <hr/>
@@ -112,73 +112,71 @@
 
 <p>Note: use SSL.</p>
 
-<p>https://launchpad.net</p>
+<p><a href='https://launchpad.net'>Launchpad</a></p>
 
 <p>allard.guy.m@gmail.com<br/> PW: r4…..</p>
 
-<p><span class='newWikiWord'>Open ID<a href='/guyspersonalwiki/new/OpenID'>?</a></span> login: https://launchpad.net/~allard-guy-m<br/> BZR launchpad-id: allard-guy-m</p>
+<p><span class='newWikiWord'>Open ID<a href='/guyspersonalwiki/new/OpenID'>?</a></span> login: <a href='https://launchpad.net/~allard-guy-m'>OpenID Login</a><br/> BZR launchpad-id: allard-guy-m</p>
 <hr/>
-<h3 id='&lt;span class='><span class='newWikiWord'>Java Ranch<a href='/guyspersonalwiki/new/JavaRanch'>?</a></span></h3>
+<h3 id='javaranch'>javaranch</h3>
 
 <p>UID: ‘Guy Allard’<br/> PW: bigguy</p>
 
 <p>Just so I do not forget!</p>
+
+<p>I think this is called coderanch now.<br/></p>
+
+<p><a href='coderanch.com'>coderanch</a></p>
 <hr/>
-<h3 id='ircfreenodenet'>irc.freenode.net</h3>
+<h3 id='irc_freenode'>IRC Freenode</h3>
 
 <p>Nicks: flaguy48, riverrat66<br/> PW: g9….</p>
-<hr/>
-<h3 id='media_wiki_vista_box'>Media Wiki Vista Box</h3>
 
-<p>admin: <span class='newWikiWord'>Wiki Sysop<a href='/guyspersonalwiki/new/WikiSysop'>?</a></span> PW: r4….</p>
+<p>irc.freenote.net<br/> Port: 6667</p>
 <hr/>
 <h3 id='ohloh'>ohloh</h3>
 
-<p>https://www.ohloh.net/accounts/gmallard</p>
+<p><a href='https://www.ohloh.net/accounts/gmallard'>Ohloh Login</a></p>
 
 <p>UID: gmallard<br/> PW: r4….</p>
+
+<p>Replaced by:</p>
+
+<p><a href='https://www.openhub.net'>OpenHub</a></p>
 <hr/>
 <h3 id='hp_media_store'>HP Media Store</h3>
 
-<p>http://www.shopping.hp.com</p>
+<p><a href='http://www.shopping.hp.com'>HP Media Store</a></p>
 
 <p>UID: allard.guy.m@gmail.com<br/> PW: g9….</p>
 <hr/>
 <h3 id='linuxquestions'>Linuxquestions</h3>
 
-<p>http://www.linuxquestions.org</p>
+<p><a href='http://www.linuxquestions.org'>Linux Questions</a></p>
 
 <p>UID: gmallard<br/> PW: g9….</p>
 <hr/>
 <h3 id='cplus_plus'>Cplus Plus</h3>
 
-<p>http://www.cplusplus.com</p>
+<p><a href='http://www.cplusplus.com'>Cplus Plus</a></p>
 
 <p>UID: gmallard<br/> PW: r4….</p>
 <hr/>
 <h3 id='g_bugzilla'>g++ Bugzilla</h3>
 
-<p>http://gcc.gnu.org/bugzilla</p>
+<p><a href='http://gcc.gnu.org/bugzilla'>g++ Bugzilla</a></p>
 
 <p>UID: allard.guy.m@gmail.com<br/> PW: r4….</p>
 <hr/>
 <h3 id='pragmatic_programmers'>Pragmatic Programmers</h3>
 
-<p>https://www.pragprog.com/my_profile</p>
+<p><a href='https://www.pragprog.com/my_profile'>PragProg</a></p>
 
 <p>UID: allard.guy.m@gmail.com<br/> PW: g9….</p>
 <hr/>
-<h3 id='gitorious'>gitorious</h3>
-
-<p>http://www.gitorious.org</p>
-
-<p>UID: gmallard e-mail: allard.guy.m@gmail.com PW: r4…</p>
-
-<p>Or Open ID can be used … perhaps …</p>
-<hr/>
 <h3 id='aim'>aim</h3>
 
-<p>http://chat.aim.com/</p>
+<p><a href='http://chat.aim.com/'>AIM Chat</a></p>
 
 <p>SN: gallard914<br/> PW: r4….</p>
 
@@ -186,7 +184,7 @@
 <hr/>
 <h3 id='mercurial'>Mercurial</h3>
 
-<p>http://mercurial.selenic.com/wiki/</p>
+<p><a href='http://mercurial.selenic.com/wiki/'>hg Main Wiki</a></p>
 
 <p>UID: guyallard<br/> PW: q12(8)</p>
 
@@ -194,7 +192,7 @@
 <hr/>
 <h3 id='gemcutter__rubygems'>Gemcutter / Rubygems</h3>
 
-<p>http://gemcutter.org<br/> http://rubygems.org</p>
+<p>http://gemcutter.org<br/> <a href='http://rubygems.org'>Rubygems</a></p>
 
 <p>UID: allard.guy.m@gmail.com<br/> PW: same as rubyforge? - yes, at least initially. big….<br/> And it has not been updated (rubyforge has, see above).<br/> q12(9) - as of 2010-05020<br/> r45(9) - as of 2010-12-24</p>
 
@@ -202,7 +200,7 @@
 <hr/>
 <h3 id='open_source_rails'>Open Source Rails</h3>
 
-<p>http://www.opensourcerails.com/</p>
+<p><a href='http://www.opensourcerails.com/'>Open Source Rails</a></p>
 
 <p>UID: gmallard<br/> PW: g9….</p>
 <hr/>
@@ -212,25 +210,15 @@
 
 <p>UID: gmail e-mail<br/> PW: g9….</p>
 <hr/>
-<h3 id='&lt;span class='><span class='newWikiWord'>Dyn DNS<a href='/guyspersonalwiki/new/DynDNS'>?</a></span></h3>
+<h3 id='dyndns'>dyndns</h3>
 
-<p>http://dyndns.com</p>
+<p><a href='http://dyndns.com'>DynDNS</a></p>
 
 <p>UID: gmallard<br/> PW: g9….</p>
 <hr/>
-<h3 id='slicehost'>slicehost</h3>
-
-<p>(See rackspace below, converted 2012)</p>
-
-<p>http://slicehost.com</p>
-
-<p>UID: gmail-email<br/> PW: k9A(8)… (1 cap required)</p>
-
-<p>My slice: www.gmallard.com<br/> gmallard: g9(8)….<br/> root: h6(9)…<br/> mysql: q1(9)</p>
-<hr/>
 <h3 id='bitbucket'>bitbucket</h3>
 
-<p>http://bitbucket.org</p>
+<p><a href='http://bitbucket.org'>BitBucket Main</a></p>
 
 <p>UID: gmallard<br/> PW: r45(9)…<br/> email: gmail</p>
 
@@ -248,7 +236,7 @@
 <hr/>
 <h3 id='reddit'>reddit</h3>
 
-<p>reddit.com</p>
+<p><a href='http://reddit.com'>Reddit Main</a></p>
 
 <p>gmallard</p>
 
@@ -264,7 +252,7 @@
 <hr/>
 <h3 id='ruby_learning'>Ruby Learning</h3>
 
-<p>rubylearning.org</p>
+<p><a href='http://rubylearning.org'>Ruby Learning</a></p>
 
 <p>gmallard</p>
 
@@ -276,7 +264,7 @@
 <hr/>
 <h3 id='wine'>Wine</h3>
 
-<p>winehq.org</p>
+<p><a href='http://winehq.org'>Wine Main</a></p>
 
 <p>UID: gmail<br/> PW: w23(9)</p>
 <hr/>
@@ -288,19 +276,19 @@
 <hr/>
 <h3 id='examville'>Examville</h3>
 
-<p>examville.com</p>
+<p><a href='http://examville.com'>Examville Main</a></p>
 
 <p>UID: gmallard<br/> PW: r45(9)</p>
 <hr/>
 <h3 id='slideshare'>Slideshare</h3>
 
-<p>slideshare.net</p>
+<p><a href='http://slideshare.net'>Slideshare Main</a></p>
 
 <p>UID: gmallard<br/> e-mail: gmail<br/> PW: r45(9)</p>
 <hr/>
 <h3 id='apple_developer'>Apple Developer</h3>
 
-<p>apple.com</p>
+<p><a href='http://apple.com'>Apple Developer</a></p>
 
 <p>Use gmail for store login.</p>
 
@@ -308,27 +296,23 @@
 
 <p>Current MBP PW: r45(9)</p>
 <hr/>
-<h3 id='codehaus_jira'>Codehaus JIRA</h3>
-
-<p>jira.codehaus.org</p>
-
-<p>UID: gmallard<br/> gmail e-mail<br/> PW: r45(9)</p>
-<hr/>
 <h3 id='oracle'>Oracle</h3>
 
-<p>oracle.com</p>
+<p><a href='http://oracle.com'>Oracle Main</a></p>
 
 <p>UID: gmail e-mail<br/> PW: R45t(9)<br/> Note 1st cap.</p>
 <hr/>
 <h3 id='newegg'>Newegg</h3>
 
-<p>newegg.com</p>
+<p><a href='http://www.newegg.com'>Newegg Main</a></p>
 
-<p>UID: gmail e-mail<br/> PW: r45(9)</p>
+<p>UID: gmail e-mail<br/> PW: R45(9)$</p>
+
+<p>Note the beginning cap and the trailing dollar sign.</p>
 <hr/>
 <h3 id='sencha'>Sencha</h3>
 
-<p>sencha.com</p>
+<p><a href='http://sencha.com'>Sencha Main</a></p>
 
 <p>UID: gmallard<br/> PW: r45(9)</p>
 <hr/>
@@ -340,23 +324,25 @@
 <hr/>
 <h3 id='asf_apache_jira'>ASF (Apache) JIRA</h3>
 
+<p><a href='https://issues.apache.org/jira/secure/Dashboard.jspa'>Issues Main</a></p>
+
 <p>UID: gmallard<br/> PW: r45(9)</p>
 <hr/>
-<h3 id='&lt;span class='><span class='newWikiWord'>Plastic SCM<a href='/guyspersonalwiki/new/PlasticSCM'>?</a></span></h3>
+<h3 id='plasticscm'>plasticscm</h3>
 
-<p>http://www.plasticscm.com/</p>
+<p><a href='http://www.plasticscm.com/'>Plastic</a></p>
 
 <p>UID: gmail e-mail PW: r45(9)</p>
 <hr/>
 <h3 id='stack_overflow'>Stack Overflow</h3>
 
-<p>http://www.stackoverflow.com/</p>
+<p><a href='http://www.stackoverflow.com/'>SO</a></p>
 
 <p>UID: user1124731<br/> Based on gmail email address<br/> PW: ???? - why did I not doc this ????</p>
 <hr/>
 <h3 id='lwn'>LWN</h3>
 
-<p>https://lwn.net</p>
+<p><a href='https://lwn.net'>LWN</a></p>
 
 <p>Note: this gives reply/post access to the git dev’s mailing list.</p>
 
@@ -364,17 +350,19 @@
 <hr/>
 <h3 id='stompgem'>stompgem</h3>
 
-<p>stompgem@gmail.com<br/> r45(9)<br/> stompgem user at github r45(9)</p>
+<p>Ruby stomp Gem Gmail r45(9)<br/> stompgem user at github r45(9)</p>
 <hr/>
 <h3 id='text_wrangler'>Text Wrangler</h3>
 
-<p>http://www.barebones.com</p>
+<p><a href='http://www.barebones.com'>Barebones</a></p>
 
 <p>Name: Guy Allard<br/> Email: allard.guy.m@gmail.com<br/> Notify: no<br/> PW: g9(8) // I think<br/> Maybe: r45(9)<br/></p>
 <hr/>
 <h3 id='golangforum'>golang-forum</h3>
 
-<p>http://golang-forum.com/index.php</p>
+<p><a href='http://golang-forum.com/index.php'>golang forum</a></p>
+
+<p><a href='https://groups.google.com/forum/#!forum/golang-nuts'>golang nuts</a></p>
 
 <p>gmallard<br/> r45(9)<br/></p>
 <hr/>
@@ -384,7 +372,15 @@
 
 <p>Rackspace Account ID 744199<br/> Rackspace Username allardguym<br/></p>
 
-<p>https://mycloud.rackspace.com</p>
+<p><a href='https://mycloud.rackspace.com'>Rackspace</a></p>
+
+<p>Previuos data from slicehost:</p>
+
+<p>http://slicehost.com</p>
+
+<p>UID: gmail-email<br/> PW: k9A(8)… (1 cap required)</p>
+
+<p>My slice: www.gmallard.com<br/> gmallard: g9(8)….<br/> root: h6(9)…<br/> mysql: q1(9)</p>
 
 <p>PW: q12W(9) 1 Cap.</p>
 <hr/>
@@ -392,7 +388,7 @@
 
 <p>Re-UP here.</p>
 
-<p>rubygems.org</p>
+<p><a href='http://rubygems.org'>Ruby Gems</a></p>
 
 <p>guyallard / gmallard now</p>
 
@@ -440,10 +436,6 @@
 
 <p>https://www.ibm.com/developerworks/dwwi/jsp/WSLogin.jsp</p>
 <hr/>
-<h3 id='newegg_2'>newegg</h3>
-
-<p>allard.guy.m@gmail.com<br/> q12W23(8) // Note upper case W<br/> |Guy|127.0.0.1 191|2014-09-19 18:39:27|2014-09-19 18:39:27|2014-09-19 18:39:27|2|</p>
-<hr/>
 <h3 id='gmail'>gmail</h3>
 
 <p>allard.guy.m@gmail.com<br/> r4…</p>
@@ -462,7 +454,7 @@
 <hr/>
 <h3 id='bookpool'>Bookpool</h3>
 
-<p>kplacko@earthlink.net g9…</p>
+<p>bookpool is defunct.</p>
 <hr/>
 <h3 id='z390'>Z390</h3>
 
@@ -490,9 +482,7 @@
 <hr/>
 <h3 id='rubyforge'>Rubyforge</h3>
 
-<p>uid=gallard // Changed 02/15/2010 pw=q12(9)…</p>
-
-<p><strong>Check. This is all wrong I think.</strong></p>
+<p>See rubygems info.</p>
 <hr/>
 <h3 id='jboss'>JBoss</h3>
 
@@ -516,7 +506,7 @@
 
 <p>uid=gmallard<br/> pw=g9…<br/></p>
 <hr/>
-<h3 id='&lt;span class='><span class='newWikiWord'>Ice Faces<a href='/guyspersonalwiki/new/IceFaces'>?</a></span></h3>
+<h3 id='icefaces'>IceFaces</h3>
 
 <p>http://www.icefaces.org</p>
 
@@ -544,7 +534,7 @@
 
 <p>Created, can not remember the pw for user ‘Guy’.</p>
 <hr/>
-<h3 id='&lt;span class='><span class='newWikiWord'>Git Hub<a href='/guyspersonalwiki/new/GitHub'>?</a></span></h3>
+<h3 id='github'>GitHub</h3>
 
 <p>http://github.com</p>
 
@@ -554,9 +544,7 @@
 <hr/>
 <h3 id='gravatar'>Gravatar</h3>
 
-<p>http://en.gravatar.com</p>
-
-<p>uid=gmallard@bluebottle.com<br/> nick=gmallard (this may be the uid!!)<br/> pw=r4…</p>
+<p><a href='http://en.gravatar.com'>Gravatar</a></p>
 
 <p>uid=allard.guy.m@gmail.com<br/> nick=guyallard<br/> pw=r4….</p>
 <hr/>
@@ -588,7 +576,13 @@
 
 <p><a href='https://gitlab.com'>gitlab URL</a></p>
 
-<p>User Name: Guy Allard<br/> <span class='newWikiWord'>User ID<a href='/guyspersonalwiki/new/UserID'>?</a></span>: gmallard<br/> e-mail: allard.guy.m@gmail.com<br/> pw: q12(8)</p>
+<p>User Name: Guy Allard<br/> UID: gmallard<br/> e-mail: allard.guy.m@gmail.com<br/> pw: q12(8)</p>
+
+<p><a href='http://localhost:8181'>gitlab Local</a></p>
+
+<p>UID: gmallard<br/> pw: q12(8)</p>
+
+<p>UID: root<br/> pw: r45(8)</p>
 <hr/>
 <h3 id='gitbook'>gitbook</h3>
 
@@ -596,24 +590,48 @@
 
 <p>URL: https://www.gitbook.com/@gmallard/dashboard</p>
 
-<p>User Name: Based on github<br/> <span class='newWikiWord'>User ID<a href='/guyspersonalwiki/new/UserID'>?</a></span>: Based in github e-mail address<br/> e-mail: allard.guy.m@gmail.com<br/> pw: N/A</p>
+<p>User Name: Based on github<br/> UID: Based in github e-mail address<br/> e-mail: allard.guy.m@gmail.com<br/> pw: N/A</p>
 <hr/>
 <h3 id='xmarks'>xmarks</h3>
 
 <p>UID: gmallard<br/> PW: q12(9)</p>
 
 <p>http://www.xmarks.com/firefox/success/4.3.18</p>
+<hr/>
+<h3 id='savannah'>savannah</h3>
+
+<p>UID: GMAllard48<br/> PW: R45t56$y67</p>
+
+<p>Note sure if I will actually use this. It looks to be CVS, Arch, and SVN only.</p>
+
+<p><a href='http://savannah.nongnu.org/'>savannah</a></p>
+<hr/>
+<h3 id='needed_info'>Needed Info</h3>
+
+<p>September141948</p>
+<hr/>
+<h3 id='sourceforge_2'>sourceforge</h3>
+
+<p>This is a reup from ancient times.</p>
+
+<p>e-mail: allard.guy.m@gmail.com<br/> UID: flaguy48<br/> PW: R45t56$y67</p>
+
+<p><a href='http://www.sourceforge.net/'>sourceforge</a></p>
+
+<p>Alias E-mail from SF:<br/> flaguy48@users.sourceforge.net</p>
+
+<p>API Key: de13003d-4618-43f8-b876-00c81c772172</p>
 </div>
 
 <div class="byline">
-  Revised on April 25, 2016 12:10:29 
-  by <span class="newWikiWord">GMA<a href="/guyspersonalwiki/new/GMA">?</a></span>
+  Revised on December 25, 2016 20:43:49 
+  by <span class="newWikiWord">Anonymous Coward<a href="/guyspersonalwiki/new/AnonymousCoward">?</a></span>
   (127.0.0.1)
 </div>
 
 <div class="navigation navfoot">
 
-  <a href="/guyspersonalwiki/edit/MyLinks" accesskey="E" class="navlink" id="edit" rel="nofollow">Edit</a> | <a href="/guyspersonalwiki/revision/MyLinks/6" accesskey="B" class="navlink" id="to_previous_revision" rel="nofollow">Back in time</a> <span class='revisions'>(6 revisions)</span> | <a href="/guyspersonalwiki/show/diff/MyLinks" accesskey="C" class="navlink" id="see_changes" rel="nofollow">See changes</a> | <a href="/guyspersonalwiki/history/MyLinks" accesskey="S" class="navlink" id="history" rel="nofollow">History</a>
+  <a href="/guyspersonalwiki/edit/MyLinks" accesskey="E" class="navlink" id="edit" rel="nofollow">Edit</a> | <a href="/guyspersonalwiki/revision/MyLinks/18" accesskey="B" class="navlink" id="to_previous_revision" rel="nofollow">Back in time</a> <span class='revisions'>(18 revisions)</span> | <a href="/guyspersonalwiki/show/diff/MyLinks" accesskey="C" class="navlink" id="see_changes" rel="nofollow">See changes</a> | <a href="/guyspersonalwiki/history/MyLinks" accesskey="S" class="navlink" id="history" rel="nofollow">History</a>
   
   <span class="views">
     | Views: 

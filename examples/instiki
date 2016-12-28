@@ -8,7 +8,7 @@
 # Description:       gmallard's local wiki
 ### END INIT INFO
 
-SCRIPT=/ad3/gma/instiki/instiki.rb
+SCRIPT=/ad3/gma/ad3/instiki/instiki.rb
 RUNAS=gmallard
 NOOUT="> /dev/null 2> /dev/null"
 SERVICE=`basename "$0"`
