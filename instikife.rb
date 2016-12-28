@@ -1,2 +1,2 @@
-#!/opt/r230_007/bin/ruby
+#!/opt/r224x/bin/ruby
 load File.dirname(__FILE__) + '/script/server'

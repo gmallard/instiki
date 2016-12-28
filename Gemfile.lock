@@ -1,65 +1,59 @@
-GIT
-  remote: git://github.com/distler/maruku.git
-  revision: 1ceda58607cebab6156ad42ad4e705d188491e3f
-  branch: nokogiri
-  specs:
-    maruku (0.7.3.beta1)
-      itextomml (>= 1.5.0)
-      nokogiri (~> 1.5, >= 1.5.6)
-      syntax (~> 1.1.0)
-
 GEM
   remote: http://rubygems.org/
   specs:
-    RedCloth (4.2.9)
+    RedCloth (4.3.2)
     abstract (1.0.0)
-    daemons (1.2.3)
+    daemons (1.2.4)
     erubis (2.7.0)
-    eventmachine (1.2.0.1)
+    eventmachine (1.2.1)
     file_signature (1.2.0)
     iconv (1.0.4)
-    itextomml (1.5.2)
-    json (1.8.3)
-    nokogiri (1.5.11)
-    rack (1.6.4)
-    rails_xss (0.4.0)
-    rake (11.1.1)
-    rdoc (4.2.2)
-      json (~> 1.4)
-    rdoc-data (4.1.0)
-      rdoc (~> 4.0)
-    rubyzip (0.9.9)
-    sqlite3 (1.3.11)
-    syntax (1.1.0)
-    test-unit (2.5.5)
-    thin (1.6.4)
+    itextomml (1.5.5)
+    json (2.0.2)
+    maruku (0.7.2)
+    mini_portile2 (2.1.0)
+    nokogiri (1.7.0)
+      mini_portile2 (~> 2.1.0)
+    power_assert (0.4.1)
+    rack (2.0.1)
+    rails_xss (0.5.1)
+      erubis (>= 2.6.5)
+    rake (12.0.0)
+    rdoc (5.0.0)
+    rubyzip (1.2.0)
+    sqlite3 (1.3.12)
+    syntax (1.2.1)
+    test-unit (3.2.3)
+      power_assert
+    thin (1.7.0)
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0, >= 1.0.4)
-      rack (~> 1.0)
+      rack (>= 1, < 3)
+    zip (2.0.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  RedCloth (>= 4.0.0)
-  abstract (~> 1.0.0)
+  RedCloth
+  abstract
   erubis
-  file_signature (~> 1.2.0)
+  file_signature
   iconv
-  itextomml (>= 1.5.1)
-  json
-  maruku!
-  nokogiri (~> 1.5.6)
-  rack (>= 1.1.3)
-  rails_xss (~> 0.4.0)
+  itextomml
+  json (= 2.0.2)
+  maruku
+  nokogiri
+  rack
+  rails_xss
   rake
   rdoc
-  rdoc-data
-  rubyzip (~> 0.9.9)
+  rubyzip
   sqlite3
-  syntax (~> 1.1.0)
-  test-unit (~> 2.5.5)
+  syntax
+  test-unit
   thin
+  zip
 
 BUNDLED WITH
-   1.11.2
+   1.13.7
