@@ -8,9 +8,13 @@
 # Description:       gmallard's local wiki
 ### END INIT INFO
 
-SCRIPT=/ad3/gma/ad3/instiki/instiki.rb
+### set -x
+
+SCRIPT=/ad3/gma/ad3/instiki/instiki.sh
 RUNAS=gmallard
-NOOUT="> /dev/null 2> /dev/null"
+NOOUT="> /tmp/instiki.log 2> /tmp/instiki.log"
+SLT=1
+##NOOUT="> /dev/null 2> /dev/null"
 SERVICE=`basename "$0"`
 
 # Sometimes the extracted field needs to be -f1, other times -f2.
@@ -28,18 +32,17 @@ start() {
   getipid
   if [ X"${ipid}" != "X" ]
   then
-    echo "Service ${SERVICE} already running PID ${ipid}"
+    echo "Service ${SERVICE} Currently Running, PID ${ipid}"
     return 1
   fi
-
-  su -l gmallard -c "RUBY_HOME=/opt/r230_007 PATH=/opt/r230_007/bin ${SCRIPT} $NOOUT &"
-
+  su -l gmallard -c "${SCRIPT} $NOOUT &"
+  sleep $SLT
   getipid
   if [ X"${ipid}" = "X" ]
   then
     echo "Service ${SERVICE} FAILED start!!!!"
   else
-    echo "Service ${SERVICE} started, PID ${ipid}"
+    echo "Service ${SERVICE} Started, PID ${ipid}"
   fi
   return 0
 #set +x
@@ -49,12 +52,12 @@ stop() {
   getipid
   if [ X"${ipid}" = "X" ]
   then
-    echo "Service ${SERVICE} is not running"
+    echo "Service ${SERVICE} NOT running"
     return 1
   fi
-  echo "Stopping Service ${SERVICE}, ${ipid}" >&2
+  echo "Stopping Service ${SERVICE}, PID ${ipid}" >&2
   su -l gmallard -c "kill ${ipid}"
-  echo "Service stopped ${SERVICE}, PID ${ipid}" >&2
+  echo "Stopped Service ${SERVICE}, PID ${ipid}" >&2
   return 0
 set +x
 }
@@ -64,9 +67,9 @@ status() {
   # echo "ipid status: |${ipid}|"
   if [ X"${ipid}" = "X" ]
   then
-    echo "Service ${SERVICE} is not running"
+    echo "Service ${SERVICE} NOT running"
   else
-    echo "Service ${SERVICE} running, PID ${ipid}"
+    echo "Service ${SERVICE} Running, PID ${ipid}"
   fi
   return 0
 }
@@ -84,6 +87,4 @@ case "$1" in
   *)
     echo "Usage: $0 {start|status|stop}"
 esac
-
-
 
