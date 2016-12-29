@@ -13,6 +13,7 @@
 SCRIPT=/ad3/gma/ad3/instiki/instiki.sh
 RUNAS=gmallard
 NOOUT="> /tmp/instiki.log 2> /tmp/instiki.log"
+SLT=1
 ##NOOUT="> /dev/null 2> /dev/null"
 SERVICE=`basename "$0"`
 
@@ -35,7 +36,7 @@ start() {
     return 1
   fi
   su -l gmallard -c "${SCRIPT} $NOOUT &"
-
+  sleep $SLT
   getipid
   if [ X"${ipid}" = "X" ]
   then
