@@ -11,9 +11,7 @@ GEM
     itextomml (1.5.5)
     json (2.0.2)
     maruku (0.7.2)
-    mini_portile2 (2.1.0)
-    nokogiri (1.7.0)
-      mini_portile2 (~> 2.1.0)
+    nokogiri (1.5.11)
     power_assert (0.4.1)
     rack (2.0.1)
     rails_xss (0.5.1)
@@ -43,7 +41,7 @@ DEPENDENCIES
   itextomml
   json (= 2.0.2)
   maruku
-  nokogiri
+  nokogiri (= 1.5.11)
   rack
   rails_xss
   rake
