@@ -9,9 +9,10 @@ GEM
     file_signature (1.2.0)
     iconv (1.0.4)
     itextomml (1.5.5)
-    json (2.0.2)
     maruku (0.7.2)
-    nokogiri (1.5.11)
+    mini_portile2 (2.1.0)
+    nokogiri (1.7.0)
+      mini_portile2 (~> 2.1.0)
     power_assert (0.4.1)
     rack (2.0.1)
     rails_xss (0.5.1)
@@ -39,9 +40,8 @@ DEPENDENCIES
   file_signature
   iconv
   itextomml
-  json (= 2.0.2)
   maruku
-  nokogiri (= 1.5.11)
+  nokogiri
   rack
   rails_xss
   rake
