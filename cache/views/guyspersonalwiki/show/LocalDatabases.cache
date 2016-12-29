@@ -1,4 +1,4 @@
-I"s.<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+I"@.<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>
@@ -117,21 +117,16 @@
 
 <p>Then su to postgres and issue:</p>
 
-<p>“</p>
-
-<p>createuser -P -s -e sysadm</p>
-
-<p>“</p>
+<pre><code>createuser -P -s -e sysadm</code></pre>
 
 <p>and set PW: r45(9)</p>
 
 <p>Console Log:</p>
 
-<p>“</p>
-
-<p>postgres@tjjackson:~$ createuser -P -s -e sysadm Enter password for new role: Enter it again: CREATE ROLE sysadm PASSWORD ‘md5afb0ab6d40746a6d41bc28a867bfb54a’ SUPERUSER CREATEDB CREATEROLE INHERIT LOGIN;</p>
-
-<p>“</p>
+<pre><code>postgres@tjjackson:~$ createuser -P -s -e sysadm
+Enter password for new role: 
+Enter it again: 
+CREATE ROLE sysadm PASSWORD &#39;md5afb0ab6d40746a6d41bc28a867bfb54a&#39; SUPERUSER CREATEDB     CREATEROLE INHERIT LOGIN;</code></pre>
 
 <p>Also added</p>
 <pre>phpPgAdmin</pre>
@@ -145,31 +140,28 @@
 
 <p>Used synaptic, for both client and server.</p>
 
-<p>“</p>
-<pre class='markdown-html-error' style='border: solid 3px red; background-color: pink;'>Maruku could not parse this XML/HTML: 
-&lt;info&gt;
-	&lt;version&gt;
-		5.5
-	&lt;/version&gt;
-	&lt;additions&gt;
-	    &lt;added&gt;
-		mod-auth
-	    &lt;added&gt;
-	    &lt;added&gt;
-		phpmyadmin
-	    &lt;added&gt;
-	    &lt;added&gt;
-		libre-office-interface
-	    &lt;added&gt;
-	</pre>
-<pre><code>    &lt;users&gt;
-        &lt;name value=&quot;root&quot; creds=&quot;q12(9)&quot; &gt;
+<pre><code>&lt;info&gt;
+    &lt;version&gt;
+        5.5
+    &lt;/version&gt;
+    &lt;additions&gt;
+        &lt;added&gt;
+            mod-auth
+        &lt;added&gt;
+        &lt;added&gt;
+            phpmyadmin
+        &lt;added&gt;
+        &lt;added&gt;
+            libre-office-interface
+        &lt;added&gt;
+    &lt;/additions&gt;
+    &lt;users&gt;
+        &lt;name value=&quot;root&quot; creds=&quot;q12(9)&quot; /&gt;
     &lt;/users&gt;
     &lt;url&gt;
         http://localhost/phpmyadmin
-    &lt;/url&gt;</code></pre>
-
-<p>“</p>
+    &lt;/url&gt;
+&lt;/info&gt;</code></pre>
 
 <p>URL: <a href='http://localhost/phpmyadmin/'>Mysql Admin</a></p>
 <hr/>
@@ -185,11 +177,7 @@
 
 <p>Client access using:</p>
 
-<p>“</p>
-
-<p>mongo</p>
-
-<p>“</p>
+<pre><code>mongo</code></pre>
 
 <p>from the command line.</p>
 
@@ -275,7 +263,7 @@
 
 <p>Bunch of warnings at top of page. Bottom gives list of what can be added.</p>
 
-<p>Generic Organizational Utit -&gt; groups</p>
+<p>Generic Organizational Unit -&gt; groups</p>
 
 <p>Create Child Entry: (we ill create three): admin, irc, users</p>
 
@@ -287,7 +275,10 @@
 
 <p>I now have four groups:</p>
 
-<p>admin dbagrp irc users</p>
+<pre><code>admin
+dbagrp
+irc
+users</code></pre>
 
 <p>And several individuals under users.</p>
 
@@ -300,14 +291,14 @@
 </div>
 
 <div class="byline">
-  Revised on December 28, 2016 15:38:47 
+  Revised on December 29, 2016 15:59:25 
   by <span class="newWikiWord">GMAllard<a href="/guyspersonalwiki/new/GMAllard">?</a></span>
   (127.0.0.1)
 </div>
 
 <div class="navigation navfoot">
 
-  <a href="/guyspersonalwiki/edit/LocalDatabases" accesskey="E" class="navlink" id="edit" rel="nofollow">Edit</a> | <a href="/guyspersonalwiki/revision/LocalDatabases/7" accesskey="B" class="navlink" id="to_previous_revision" rel="nofollow">Back in time</a> <span class='revisions'>(7 revisions)</span> | <a href="/guyspersonalwiki/show/diff/LocalDatabases" accesskey="C" class="navlink" id="see_changes" rel="nofollow">See changes</a> | <a href="/guyspersonalwiki/history/LocalDatabases" accesskey="S" class="navlink" id="history" rel="nofollow">History</a>
+  <a href="/guyspersonalwiki/edit/LocalDatabases" accesskey="E" class="navlink" id="edit" rel="nofollow">Edit</a> | <a href="/guyspersonalwiki/revision/LocalDatabases/8" accesskey="B" class="navlink" id="to_previous_revision" rel="nofollow">Back in time</a> <span class='revisions'>(8 revisions)</span> | <a href="/guyspersonalwiki/show/diff/LocalDatabases" accesskey="C" class="navlink" id="see_changes" rel="nofollow">See changes</a> | <a href="/guyspersonalwiki/history/LocalDatabases" accesskey="S" class="navlink" id="history" rel="nofollow">History</a>
   
   <span class="views">
     | Views: 
